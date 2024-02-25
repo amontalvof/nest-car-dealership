@@ -10,12 +10,11 @@ import { CreateCarDto, UpdateCarDto } from './dto';
 @Injectable()
 export class CarsService {
     private cars: Car[] = [
-        { id: uuid(), brand: 'Toyota', model: 'Corolla' },
-        { id: uuid(), brand: 'BMW', model: 'X5' },
-        { id: uuid(), brand: 'Ford', model: 'Fusion' },
-        { id: uuid(), brand: 'Audi', model: 'A4' },
-        { id: uuid(), brand: 'Mercedes', model: 'C-Class' },
-        { id: uuid(), brand: 'Lexus', model: 'RX' },
+        // {
+        //     id: uuid(),
+        //     brand: 'Toyota',
+        //     model: 'Corolla',
+        // },
     ];
 
     findAll() {
